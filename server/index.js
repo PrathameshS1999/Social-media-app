@@ -48,7 +48,7 @@ app.use('/auth', authRoutes);
 app.use('/users', userRoutes);
 app.use('/posts', postRoutes);
 
-const PORT = 'https://social-media-app-rbsf.onrender.com';
+const PORT = 'https://localhost:3001';
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
